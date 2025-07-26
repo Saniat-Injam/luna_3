@@ -1,0 +1,19 @@
+# flutter pub run flutter_launcher_icons
+flutter_launcher_icons:
+  # Using JPG as requested by user
+  image_path: "assets/icons/app_logo.jpg"
+
+  # Android configuration - use adaptive icons to prevent white space
+  android: true
+    adaptive_icon_background: "#000000"  # Set background color (black)
+  adaptive_icon_foreground: "assets/icons/app_logo.jpg"
+  adaptive_icon_foreground_inset: 16  # Adds padding to prevent cropping
+  min_sdk_android: 21
+
+  # iOS configuration
+  ios: true
+  remove_alpha_ios: true
+  background_color_ios: "#FFFFFF"  # Match Android background
+ 
+
+

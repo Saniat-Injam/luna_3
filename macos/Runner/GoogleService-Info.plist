@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>409329025378-7007m8knuietc4dojl64sr6t9eq6rilu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.409329025378-7007m8knuietc4dojl64sr6t9eq6rilu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>409329025378-jpd80tln70d1lq286iiv9mb8l5oki9a2.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBtxHdJt1k9aC_ld6q444cgOt0RSU9wFYM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>409329025378</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.luna3</string>
+	<key>PROJECT_ID</key>
+	<string>luna-3-7e89c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>luna-3-7e89c.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:409329025378:ios:b69a1600b09a6e949c2c3b</string>
+</dict>
+</plist>

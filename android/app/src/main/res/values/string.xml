@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Barbell</string>
+    <string name="facebook_app_id">1278125933653418</string>
+    <string name="fb_login_protocol_scheme">fb1278125933653418</string>
+    <string name="facebook_client_token">56006309b01dc0972074b2fa15e23c1d</string>
+</resources>

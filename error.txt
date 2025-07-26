@@ -1,0 +1,102 @@
+[GETX] GOING TO ROUTE /UploadTipsScreen
+[GETX] Instance "UploadArticleTipController" has been created
+[GETX] Instance "UploadArticleTipController" has been initialized
+
+════════ Exception caught by widgets library ═══════════════════════════════════
+The following message was thrown building Obx(has builder, dirty, state: ObxState#710a3):
+[Get] the improper use of a GetX has been detected.
+      You should only use GetX or Obx for the specific widget that will be updated.
+      If you are seeing this error, you probably did not insert any observable variables into GetX/Obx
+      or insert them outside the scope that GetX considers suitable for an update
+      (example: GetX => HeavyWidget => variableObservable).
+      If you need to update a parent widget and a child widget, wrap each one in an Obx/GetX.
+
+The relevant error-causing widget was:
+    Obx Obx:file:///Users/bdcalling/razib/luna_3_/lib/features/tips/view/upload_tips_screen.dart:663:12
+
+When the exception was thrown, this was the stack:
+#0      RxInterface.notifyChildren (package:get/get_rx/src/rx_types/rx_core/rx_interface.dart:29:7)
+#1      ObxState.build (package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart:56:19)
+#2      StatefulElement.build (package:flutter/src/widgets/framework.dart:5823:27)
+#3      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5715:15)
+#4      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#5      Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5697:5)
+#7      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5865:11)
+#8      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5691:5)
+#9      Element.inflateWidget (package:flutter/src/widgets/framework.dart:4539:16)
+#10     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7159:36)
+#11     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7175:32)
+...     Normal element mounting (147 frames)
+#158    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4539:16)
+#159    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7159:36)
+#160    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7175:32)
+...     Normal element mounting (338 frames)
+#498    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4539:16)
+#499    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7159:36)
+#500    Element.updateChild (package:flutter/src/widgets/framework.dart:4004:18)
+#501    Element.updateChildren (package:flutter/src/widgets/framework.dart:4201:11)
+#502    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7192:17)
+#503    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#504    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#505    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#506    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#507    StatefulElement.update (package:flutter/src/widgets/framework.dart:5899:5)
+#508    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#509    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#510    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#511    ProxyElement.update (package:flutter/src/widgets/framework.dart:6041:5)
+#512    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#513    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#514    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#515    ProxyElement.update (package:flutter/src/widgets/framework.dart:6041:5)
+#516    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#517    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#518    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#519    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#520    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#521    StatefulElement.update (package:flutter/src/widgets/framework.dart:5899:5)
+#522    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#523    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#524    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#525    ProxyElement.update (package:flutter/src/widgets/framework.dart:6041:5)
+#526    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#527    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#528    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#529    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#530    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#531    StatefulElement.update (package:flutter/src/widgets/framework.dart:5899:5)
+#532    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#533    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#534    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#535    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#536    StatefulElement.update (package:flutter/src/widgets/framework.dart:5899:5)
+#537    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#538    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7015:14)
+#539    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#540    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7015:14)
+#541    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#542    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#543    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#544    ProxyElement.update (package:flutter/src/widgets/framework.dart:6041:5)
+#545    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#546    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#547    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#548    ProxyElement.update (package:flutter/src/widgets/framework.dart:6041:5)
+#549    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#550    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5738:16)
+#551    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5874:11)
+#552    Element.rebuild (package:flutter/src/widgets/framework.dart:5427:7)
+#553    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2694:15)
+#554    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2752:11)
+#555    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3056:18)
+#556    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1240:21)
+#557    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#558    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1438:15)
+#559    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1351:9)
+#560    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1204:5)
+#561    _invoke (dart:ui/hooks.dart:331:13)
+#562    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:444:5)
+#563    _drawFrame (dart:ui/hooks.dart:303:31)
+
+════════════════════════════════════════════════════════════════════════════════

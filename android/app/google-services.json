@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "409329025378",
+    "project_id": "luna-3-7e89c",
+    "storage_bucket": "luna-3-7e89c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409329025378:android:8712cc8030e0fb0b9c2c3b",
+        "android_client_info": {
+          "package_name": "com.example.luna_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409329025378-g00nupl7k8fngfngohamisogq91tdm52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luna_3",
+            "certificate_hash": "f67a562509a0d7af220339b5f031f29702d830ad"
+          }
+        },
+        {
+          "client_id": "409329025378-jpd80tln70d1lq286iiv9mb8l5oki9a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luna_3",
+            "certificate_hash": "e3bf79e160972da27e09b2a3f48ab03b930d679e"
+          }
+        },
+        {
+          "client_id": "409329025378-87ernt66rfbtl8tecrjrcgel4p5nn9d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM_M-D3O1rfvGO74vfuLRKS_txg4Gf5yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409329025378-87ernt66rfbtl8tecrjrcgel4p5nn9d2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "409329025378-7007m8knuietc4dojl64sr6t9eq6rilu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.luna3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

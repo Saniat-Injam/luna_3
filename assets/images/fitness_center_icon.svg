@@ -1,0 +1,83 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#backgroundGradient)" stroke="url(#borderGradient)" stroke-width="2"/>
+  
+  <!-- Dumbbell Icon -->
+  <g transform="translate(30, 45)">
+    <!-- Left Weight -->
+    <rect x="0" y="5" width="12" height="20" rx="2" fill="url(#metalGradient)"/>
+    <rect x="2" y="7" width="8" height="16" rx="1" fill="url(#highlightGradient)"/>
+    
+    <!-- Left Handle -->
+    <rect x="12" y="12" width="16" height="6" rx="3" fill="url(#handleGradient)"/>
+    
+    <!-- Center Bar -->
+    <rect x="28" y="13" width="24" height="4" rx="2" fill="url(#barGradient)"/>
+    
+    <!-- Right Handle -->
+    <rect x="52" y="12" width="16" height="6" rx="3" fill="url(#handleGradient)"/>
+    
+    <!-- Right Weight -->
+    <rect x="68" y="5" width="12" height="20" rx="2" fill="url(#metalGradient)"/>
+    <rect x="70" y="7" width="8" height="16" rx="1" fill="url(#highlightGradient)"/>
+  </g>
+  
+  <!-- Fitness Ring -->
+  <circle cx="60" cy="60" r="45" fill="none" stroke="url(#ringGradient)" stroke-width="3" stroke-dasharray="8 4" opacity="0.6"/>
+  
+  <!-- Achievement Stars -->
+  <g opacity="0.8">
+    <!-- Top Star -->
+    <path d="M60 25 L62 31 L68 31 L63.5 35 L65 41 L60 37.5 L55 41 L56.5 35 L52 31 L58 31 Z" fill="url(#starGradient)"/>
+    
+    <!-- Bottom Left Star -->
+    <path d="M35 75 L37 81 L43 81 L38.5 85 L40 91 L35 87.5 L30 91 L31.5 85 L27 81 L33 81 Z" fill="url(#starGradient)" opacity="0.7"/>
+    
+    <!-- Bottom Right Star -->
+    <path d="M85 75 L87 81 L93 81 L88.5 85 L90 91 L85 87.5 L80 91 L81.5 85 L77 81 L83 81 Z" fill="url(#starGradient)" opacity="0.7"/>
+  </g>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.1"/>
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.3"/>
+    </linearGradient>
+    
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="50%" style="stop-color:#34495e"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+    
+    <linearGradient id="highlightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1"/>
+      <stop offset="100%" style="stop-color:#bdc3c7"/>
+    </linearGradient>
+    
+    <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+    
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#95a5a6"/>
+      <stop offset="100%" style="stop-color:#7f8c8d"/>
+    </linearGradient>
+    
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    
+    <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12"/>
+      <stop offset="100%" style="stop-color:#e67e22"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,7 @@
+Disclaimers from luna_3_
+Disclaimer 1 (Health & Accuracy): Disclaimer: AI chat Bot provides workout and nutrition guidance based on artificial intelligence and user inputs. The accuracy of workout recommendations, nutritional information, and calorie estimates from the AI Camera feature is not guaranteed and should be considered approximate. Results may vary based on individual factors, equipment, and usage. Consult with a healthcare professional, certified fitness trainer, or registered dietitian before starting any fitness or nutrition program. Use of this app is at your own risk, and AI chat Bot is not liable for any adverse effects or injuries resulting from its use.
+
+Disclaimer 2 (Data & Privacy): Disclaimer: By using AI chat Bot, you acknowledge that your user data, including workout activity, nutritional preferences, and app interactions, will be collected and used to enhance app functionality and personalize features such as nutrition pop-ups. We may share or sell anonymized and aggregated data with third parties for research, analytics, or other purposes, in compliance with applicable privacy laws. For more details, please review our Privacy Policy. Use of this app is at your own risk.
+
+Final Instruction
+luna_3_ Add these type of prompts. That's all I need to make sure I am safe on my end
